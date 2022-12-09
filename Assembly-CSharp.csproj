@@ -76,7 +76,6 @@
      <Compile Include="Assets\LowPolyNature\Scripts\Sheep.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
-     <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
@@ -91,6 +90,12 @@
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
