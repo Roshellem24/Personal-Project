@@ -75,6 +75,7 @@
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Sheep.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
      <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Users/game3-24/Desktop/CreateCode/Personal Project/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
