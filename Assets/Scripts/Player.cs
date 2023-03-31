@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     public float verticalInput;
     public float horizontalInput;
-
+    GameManagerDos gmDos;
     public float rotationSpeed;
 
     Animator chickenAnim;
@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         chickenAnim = GetComponent<Animator>();
+        gmDos = GameObject.Find("GameManager").GetComponent<GameManagerDos>();
     }
 
     void Update()
@@ -49,5 +50,15 @@ public class Player : MonoBehaviour
        
 
        
+    }
+
+    void OnTriggerEnter (Collider other)
+    {
+        if(other.gameObject.CompareTag("Chicken Leg"))
+        {
+            Destroy(other.gameObject);
+            gmDos.AddScore(1);
+
+        }
     }
 }

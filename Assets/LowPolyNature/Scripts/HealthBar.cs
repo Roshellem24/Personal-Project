@@ -13,7 +13,7 @@ public class HealthBar : MonoBehaviour {
 
     public int Max;
 
-    private int mCurrentValue;
+    [SerializeField] int mCurrentValue;
 
     private float mCurrentPercent;
     
@@ -49,8 +49,11 @@ public class HealthBar : MonoBehaviour {
     }
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
+        TxtHealth.text = string.Format("{0} %", Mathf.RoundToInt(mCurrentPercent * 100));
 
+        ImgHealthBar.fillAmount = mCurrentPercent;
 	}
 
 }

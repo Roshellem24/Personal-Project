@@ -74,7 +74,10 @@
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerController.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Sheep.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\GameManagerDos.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
      <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
  <Reference Include="UnityEngine.Purchasing">
