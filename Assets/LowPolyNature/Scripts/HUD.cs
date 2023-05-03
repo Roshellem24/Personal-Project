@@ -10,7 +10,8 @@ public class HUD : MonoBehaviour {
     public GameObject MessagePanel;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         // Inventory.ItemAdded += InventoryScript_ItemAdded;
         // Inventory.ItemRemoved += Inventory_ItemRemoved;
 	}

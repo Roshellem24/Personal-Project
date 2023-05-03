@@ -51,9 +51,11 @@ public class HealthBar : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        TxtHealth.text = string.Format("{0} %", Mathf.RoundToInt(mCurrentPercent * 100));
+       // TxtHealth.text = string.Format("{0} %", Mathf.RoundToInt(mCurrentPercent * 100));
 
-        ImgHealthBar.fillAmount = mCurrentPercent;
+        //ImgHealthBar.fillAmount = mCurrentPercent;
+
+        SetValue(4);
 	}
 
 }

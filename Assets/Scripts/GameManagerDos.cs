@@ -35,6 +35,9 @@ public class GameManagerDos : MonoBehaviour
         //** Uncomment the line below and add the appropriate variable name for lives **//
         lives += value;
 
+        HealthBar healthBar = GameObject.FindObjectOfType<HealthBar>();
+        healthBar.SetValue(lives);
+
         //** Uncomment the if statement below and fix the comments
        
             // add the appropriate variable name into the if statement for lives
